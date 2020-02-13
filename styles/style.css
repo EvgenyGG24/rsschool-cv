@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap'); 
+
+
+* {
+  color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Prompt', sans-serif;
+}
+
+.background{
+    background: url(../images/back.jpg);
+    background-size: 100%;
+}
+
+
+
+header, main, footer {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+.top-contact-info {
+    display: flex;
+    margin: 15px 20px 0 0;
+}
+
+.foot-contact-info {
+  display: flex;
+  margin: 15px 20px 0 0;
+}
+
+.top-contact-info img:hover, .bottom-contact-info img:hover {
+    transform: scaleY(1.2);
+}
+
+.foot-contact-info img:hover, .bottom-contact-info img:hover {
+   transform: scale(1.2)
+}
+
+.top-contact-info img {
+    width: 70px;
+}
+
+.bottom-contact-info {
+    display: flex;
+}
+
+.bottom-contact-info img {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.bottom-contact-info a {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 10px 10px;
+    font-weight: bold;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 0 0 20px #000000;
+}
+
+.profile-photo:hover {
+  box-shadow: 0 0 45px #ffffff;
+  transition: 1s;
+}
+
+.profile-photo:not(:hover) {
+    box-shadow: 0 0 20px #000000;
+    transition: 1s;
+}
+
+main > section {
+    width: 80%;
+    margin: 20px;
+}
+
+.line {
+    height: 5px;
+    margin: 5px 0;
+    background: radial-gradient(50% 50%, #000000, transparent);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p, section > ul {
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.date {
+    margin-bottom: 30px;
+}
